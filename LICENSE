@@ -1,8 +1,11 @@
-This repository is released under two licenses:
+This repository is released under the following terms:
 
   1. Source code                     -> MIT License (below)
   2. Data and figures                -> Creative Commons Attribution 4.0
      (data/bhv_hum.csv, figs/)          International (CC BY 4.0)
+  3. Figure containing Charades-Ego  -> NOT under CC BY 4.0; Charades-Ego
+     video frames                       License for Non-Commercial Use
+     (figs/vis/vis_video_model_ego_noise0.3.pdf)
 
 Third-party datasets fetched by the scripts in scripts/ (Charades-Ego;
 Pascucci et al. 2019) are NOT part of this repository and remain under their
@@ -38,11 +41,44 @@ SOFTWARE.
 
 Copyright (c) 2026 The authors
 
-The human behavioral data (data/bhv_hum.csv) and the figures (figs/) are
-licensed under the Creative Commons Attribution 4.0 International License.
+The human behavioral data (data/bhv_hum.csv) and the figures (figs/), except
+for the figure listed in Section 3, are licensed under the Creative Commons
+Attribution 4.0 International License.
 You may share and adapt them for any purpose, provided that you give
 appropriate credit (cite the paper named in README.md), provide a link to the
 license, and indicate if changes were made.
 
 Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
 Summary:           https://creativecommons.org/licenses/by/4.0/
+
+======================================================================
+3. Figure containing Charades-Ego video frames: NOT CC BY 4.0
+======================================================================
+
+The following figure reproduces still frames of the Charades-Ego dataset
+(Sigurdsson et al., 2018; (C) The Allen Institute for Artificial
+Intelligence) as an example of the model's video reconstruction:
+
+  figs/vis/vis_video_model_ego_noise0.3.pdf
+
+It is excluded from the CC BY 4.0 license in Section 2. The video frames it
+contains remain subject to the Charades-Ego "License for Non-Commercial Use",
+reproduced in full below. In particular, they may not be used commercially,
+and they may not be extracted, modified, or redistributed.
+
+----------------------------------------------------------------------
+License for Non-Commercial Use
+
+If this software is redistributed, this license must be included. The term software includes any source files, documentation, executables, models, and data.
+
+This software and data is available for general use by academic or non-profit, or government-sponsored researchers.  It may also be used for evaluation purposes elsewhere.  This license does not grant the right to use this software or any derivation of it in a for-profit enterprise.  For commercial use, please contact The Allen Institute for Artificial Intelligence.  
+
+This license does not grant the right to modify and publicly release the data in any form.
+
+This license does not grant the right to distribute the data to a third party in any form.
+
+The subjects in this data should be treated with respect and dignity. This license only grants the right to publish short segments or still images in an academic publication where necessary to present examples, experimental results, or observations.
+
+This software comes with no warranty or guarantee of any kind.  By using this software, the user accepts full liability.
+
+The Allen Institute for Artificial Intelligence (C) 2016.

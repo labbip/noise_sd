@@ -42,7 +42,7 @@ scripts/download_charades.sh   Fetch the Charades-Ego dataset
 scripts/download_pascucci.sh   Fetch + convert the Pascucci 2019 dataset
 data/bhv_hum.csv           In-house human behavioral data (included)
 figs/                      Pre-generated reference figures (the paper's Fig 2–10)
-LICENSE                    MIT (code) + CC BY 4.0 (data, figures)
+LICENSE                    MIT (code) + CC BY 4.0 (data, figures; one exception)
 ```
 
 ---
@@ -170,7 +170,10 @@ Figures are written to `figs/`, numerical results to `results/`.
 
 - **Code**: MIT License.
 - **Data and figures** (`data/bhv_hum.csv`, `figs/`): Creative Commons
-  Attribution 4.0 International (CC BY 4.0).
+  Attribution 4.0 International (CC BY 4.0), with one exception below.
+- **`figs/vis/vis_video_model_ego_noise0.3.pdf`**: not under CC BY 4.0. It
+  reproduces still frames of Charades-Ego, which remain under the Charades-Ego
+  License for Non-Commercial Use (no commercial use, no redistribution).
 
 See `LICENSE`. The third-party datasets fetched by `scripts/` (Charades-Ego,
 Pascucci et al. 2019) are not part of this repository and remain under their
